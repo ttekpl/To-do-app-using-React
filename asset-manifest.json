@@ -1,13 +1,13 @@
 {
-  "main.css": "/To-do-app-using-React/./static/css/main.79bee9e1.chunk.css",
-  "main.js": "/To-do-app-using-React/./static/js/main.f219febd.chunk.js",
-  "main.js.map": "/To-do-app-using-React/./static/js/main.f219febd.chunk.js.map",
-  "runtime~main.js": "/To-do-app-using-React/./static/js/runtime~main.905e5cf8.js",
-  "runtime~main.js.map": "/To-do-app-using-React/./static/js/runtime~main.905e5cf8.js.map",
-  "static/js/2.40ad7508.chunk.js": "/To-do-app-using-React/./static/js/2.40ad7508.chunk.js",
-  "static/js/2.40ad7508.chunk.js.map": "/To-do-app-using-React/./static/js/2.40ad7508.chunk.js.map",
-  "index.html": "/To-do-app-using-React/./index.html",
-  "precache-manifest.3ff1185fdf9611c14751118d3e34ebaf.js": "/To-do-app-using-React/./precache-manifest.3ff1185fdf9611c14751118d3e34ebaf.js",
-  "service-worker.js": "/To-do-app-using-React/./service-worker.js",
-  "static/css/main.79bee9e1.chunk.css.map": "/To-do-app-using-React/./static/css/main.79bee9e1.chunk.css.map"
+  "main.css": "/To-do-app-using-React/static/css/main.79bee9e1.chunk.css",
+  "main.js": "/To-do-app-using-React/static/js/main.f219febd.chunk.js",
+  "main.js.map": "/To-do-app-using-React/static/js/main.f219febd.chunk.js.map",
+  "runtime~main.js": "/To-do-app-using-React/static/js/runtime~main.641f1139.js",
+  "runtime~main.js.map": "/To-do-app-using-React/static/js/runtime~main.641f1139.js.map",
+  "static/js/2.40ad7508.chunk.js": "/To-do-app-using-React/static/js/2.40ad7508.chunk.js",
+  "static/js/2.40ad7508.chunk.js.map": "/To-do-app-using-React/static/js/2.40ad7508.chunk.js.map",
+  "index.html": "/To-do-app-using-React/index.html",
+  "precache-manifest.9160808edd61052adc57362aa948ea6e.js": "/To-do-app-using-React/precache-manifest.9160808edd61052adc57362aa948ea6e.js",
+  "service-worker.js": "/To-do-app-using-React/service-worker.js",
+  "static/css/main.79bee9e1.chunk.css.map": "/To-do-app-using-React/static/css/main.79bee9e1.chunk.css.map"
 }
