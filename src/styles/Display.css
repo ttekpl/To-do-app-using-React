@@ -1,0 +1,144 @@
+:root {
+  --h1Size: 25px;
+  --taskSize: 60px;
+}
+
+div.display {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+
+div.display > h1 {
+  flex-basis: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  color: white;
+  position: relative;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+div.display li {
+  height: calc(var(--taskSize) + 20px);
+  margin: 10px 20vw;
+  min-width: 250px;
+  border-bottom: 1px solid #151515;
+  border-radius: 40px;
+  background-color: #444444;
+  position: relative;
+}
+
+h1.task__h1,
+h2.task__h2 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: var(--h1Size);
+  letter-spacing: 2px;
+}
+li button {
+  position: absolute;
+  background-color: #151515;
+  border: none;
+  height: var(--taskSize);
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  left: 10px;
+  width: var(--taskSize);
+  line-height: var(--taskSize);
+  font-size: calc(var(--taskSize) / 2);
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+li button:hover {
+  opacity: 0.1;
+}
+
+li.priority h1,
+li.priority h2,
+li.priority button {
+  color: crimson;
+}
+
+div.display input {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  background-color: var(--panelMainColor);
+  color: white;
+  outline: none;
+
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-bottom: 1px solid crimson;
+}
+
+div.display label {
+  position: absolute;
+  top: 30px;
+  left: 5%;
+}
+
+i.fa-search {
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  left: 0;
+  transform: translateX(-100%);
+  color: crimson;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: var(--panelSecondColor);
+}
+
+div.display ul {
+  flex-grow: 1;
+  list-style: none;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --h1Size: 16px;
+    --taskSize: 40px;
+  }
+
+  div.display label {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+  }
+
+  div.display ul {
+    margin-top: 100px;
+  }
+
+  h1.task__h1,
+  h2.task__h2 {
+    letter-spacing: 1px;
+  }
+  div.display li {
+    min-width: 150px;
+    height: calc(var(--taskSize) + 20px);
+    margin: 10px 10vw;
+
+    border-radius: calc(5vh + 10px);
+  }
+}
