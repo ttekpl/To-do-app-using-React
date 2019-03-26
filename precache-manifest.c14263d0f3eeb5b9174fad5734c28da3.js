@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/To-do-app-using-React/static/js/runtime~main.641f1139.js"
   },
   {
-    "revision": "7867003070b1c906cbcc",
+    "revision": "31fce705d53ebfa4094e",
     "url": "/To-do-app-using-React/static/js/main.f219febd.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/To-do-app-using-React/static/js/2.40ad7508.chunk.js"
   },
   {
-    "revision": "7867003070b1c906cbcc",
-    "url": "/To-do-app-using-React/static/css/main.79bee9e1.chunk.css"
+    "revision": "31fce705d53ebfa4094e",
+    "url": "/To-do-app-using-React/static/css/main.d25b31dd.chunk.css"
   },
   {
-    "revision": "9c1c27a5801275377f03d3eb6d4c7bd9",
+    "revision": "02fc45ae23b90fb51418bee2b97c7d99",
     "url": "/To-do-app-using-React/index.html"
   }
 ];
